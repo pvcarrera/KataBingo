@@ -1,4 +1,4 @@
-require './card_generator'
+require './card'
 
 describe 'bingo card' do
 
