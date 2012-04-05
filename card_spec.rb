@@ -6,7 +6,7 @@ describe 'bingo card' do
     @card = Card.new
   end
   
-  describe 'has 3 rows and 9 columns' do
+  context 'when first created' do
     it 'has 3 rows' do
       @card.row(1).should_not be_nil 
       @card.row(2).should_not be_nil 
